@@ -156,13 +156,23 @@ nav {
 /* Certificates */
 .certificates {
     display: grid;
-    gap: 20px;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
 .certificate-card {
     background: #1F2937;
     padding: 20px;
     border-radius: 8px;
+}
+
+.certificate-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #374151;
+    margin-bottom: 14px;
 }
 
 .btn-small {
