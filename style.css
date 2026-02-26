@@ -154,7 +154,7 @@ nav {
 }
 
 /* Certificates */
-.certificates {
+.certificate-list {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -164,6 +164,39 @@ nav {
     background: #1F2937;
     padding: 20px;
     border-radius: 8px;
+}
+
+.certificate-subtitle {
+    margin: 44px 0 20px;
+    color: #93c5fd;
+    font-size: 28px;
+}
+
+.certificate-gallery {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.certificate-image-card {
+    background: #1F2937;
+    border-radius: 8px;
+    padding: 16px;
+    text-decoration: none;
+    color: #F3F4F6;
+    border: 1px solid #374151;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.certificate-image-card:hover {
+    transform: translateY(-4px);
+    border-color: #2563EB;
+}
+
+.certificate-image-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
 }
 
 .certificate-image {
