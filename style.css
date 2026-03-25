@@ -6,21 +6,21 @@
 }
 
 :root {
-    --accent: #10b981;
-    --accent-strong: #059669;
-    --accent-soft: #6ee7b7;
-    --accent-soft-2: #a7f3d0;
-    --accent-glow: rgba(16, 185, 129, 0.35);
-    --accent-glow-soft: rgba(16, 185, 129, 0.2);
+    --accent: #ef4444;
+    --accent-strong: #dc2626;
+    --accent-soft: #fca5a5;
+    --accent-soft-2: #fecaca;
+    --accent-glow: rgba(239, 68, 68, 0.35);
+    --accent-glow-soft: rgba(239, 68, 68, 0.2);
 }
 
 body {
     font-family: 'Sora', sans-serif;
     background:
-        radial-gradient(1100px 550px at -10% -12%, rgba(16, 185, 129, 0.18), transparent 55%),
-        radial-gradient(900px 600px at 105% -10%, rgba(16, 185, 129, 0.14), transparent 65%),
-        #050b07;
-    color: #F3F4F6;
+        radial-gradient(1100px 550px at -10% -12%, rgba(239, 68, 68, 0.18), transparent 55%),
+        radial-gradient(900px 600px at 105% -10%, rgba(239, 68, 68, 0.14), transparent 65%),
+        #120709;
+    color: #fff7f7;
     font-size: clamp(16px, 1vw, 19px);
     line-height: 1.6;
     overflow-x: hidden;
@@ -64,8 +64,8 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     width: min(1180px, 92%);
-    background: rgba(6, 19, 12, 0.8);
-    border: 1px solid rgba(110, 231, 183, 0.26);
+    background: rgba(28, 9, 12, 0.82);
+    border: 1px solid rgba(252, 165, 165, 0.24);
     backdrop-filter: blur(12px);
     display: flex;
     justify-content: space-between;
@@ -90,7 +90,7 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #d6eee2;
+    color: #f7dcdc;
     position: relative;
     font-size: 13px;
     font-weight: 500;
@@ -122,8 +122,8 @@ nav {
 
 .nav-cta {
     text-decoration: none;
-    background: #f4f8f6;
-    color: #102117;
+    background: #fff1f2;
+    color: #3f1015;
     font-size: 13px;
     font-weight: 600;
     padding: 10px 14px;
@@ -133,7 +133,7 @@ nav {
 
 .nav-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(16, 185, 129, 0.22);
+    box-shadow: 0 8px 16px rgba(239, 68, 68, 0.22);
 }
 
 /* Hero */
@@ -155,7 +155,7 @@ nav {
     left: -220px;
     top: 60px;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.18), rgba(16, 185, 129, 0.02) 68%, transparent 72%);
+    background: radial-gradient(circle at 50% 50%, rgba(239, 68, 68, 0.18), rgba(239, 68, 68, 0.02) 68%, transparent 72%);
     z-index: -1;
 }
 
@@ -167,7 +167,7 @@ nav {
     right: -120px;
     top: 120px;
     border-radius: 50%;
-    background: radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.14), transparent 70%);
+    background: radial-gradient(circle at 50% 50%, rgba(239, 68, 68, 0.14), transparent 70%);
     z-index: -1;
 }
 
@@ -192,8 +192,8 @@ nav {
     padding: 10px 14px;
     border-radius: 999px;
     color: var(--accent-soft-2);
-    background: rgba(8, 29, 19, 0.82);
-    border: 1px solid rgba(110, 231, 183, 0.22);
+    background: rgba(35, 10, 14, 0.82);
+    border: 1px solid rgba(252, 165, 165, 0.22);
     font-size: 13px;
 }
 
@@ -206,14 +206,14 @@ nav {
 
 .hero-intro {
     max-width: 620px;
-    color: #9ab8ab;
+    color: #d8acb0;
     font-size: clamp(16px, 1.7vw, 20px);
     margin-bottom: 10px;
 }
 
 .hero h2 {
     margin: 14px 0 0;
-    color: #86a99a;
+    color: #c48e93;
     min-height: 34px;
 }
 
@@ -244,13 +244,13 @@ nav {
 }
 
 .btn-ghost {
-    background: rgba(7, 24, 16, 0.75);
+    background: rgba(31, 9, 12, 0.78);
     color: var(--accent-soft-2);
-    border: 1px solid rgba(110, 231, 183, 0.32);
+    border: 1px solid rgba(252, 165, 165, 0.28);
 }
 
 .btn-ghost:hover {
-    background: rgba(16, 45, 30, 0.88);
+    background: rgba(71, 18, 24, 0.88);
 }
 
 .hero-metrics {
@@ -263,8 +263,8 @@ nav {
 .metric {
     padding: 10px 12px;
     border-radius: 12px;
-    background: rgba(8, 24, 17, 0.72);
-    border: 1px solid rgba(110, 231, 183, 0.18);
+    background: rgba(32, 10, 14, 0.72);
+    border: 1px solid rgba(252, 165, 165, 0.18);
 }
 
 .metric strong {
@@ -276,7 +276,7 @@ nav {
 
 .metric span {
     font-size: 11px;
-    color: #9ab8ab;
+    color: #d8acb0;
 }
 
 .hero-image {
@@ -290,8 +290,8 @@ nav {
     width: min(470px, 100%);
     padding: 12px;
     border-radius: 22px;
-    background: linear-gradient(160deg, rgba(4, 12, 9, 0.88), rgba(10, 32, 21, 0.82));
-    border: 1px solid rgba(110, 231, 183, 0.22);
+    background: linear-gradient(160deg, rgba(17, 6, 8, 0.9), rgba(42, 12, 17, 0.84));
+    border: 1px solid rgba(252, 165, 165, 0.22);
     box-shadow: 0 28px 42px rgba(0, 0, 0, 0.45);
 }
 
@@ -301,7 +301,7 @@ nav {
     inset: 0;
     border-radius: 22px;
     pointer-events: none;
-    box-shadow: inset 0 0 0 1px rgba(110, 231, 183, 0.1);
+    box-shadow: inset 0 0 0 1px rgba(252, 165, 165, 0.1);
 }
 
 .hero-image img {
@@ -311,7 +311,7 @@ nav {
     object-fit: cover;
     object-position: center top;
     border-radius: 14px;
-    border: 1px solid rgba(110, 231, 183, 0.24);
+    border: 1px solid rgba(252, 165, 165, 0.24);
     box-shadow: 0 18px 30px rgba(2, 6, 23, 0.5);
     transition: transform 0.28s ease, box-shadow 0.28s ease;
     cursor: zoom-in;
@@ -319,7 +319,7 @@ nav {
 
 .hero-image img:hover {
     transform: scale(1.015);
-    box-shadow: 0 24px 38px rgba(16, 185, 129, 0.24);
+    box-shadow: 0 24px 38px rgba(239, 68, 68, 0.24);
 }
 
 .hero-image-tags {
@@ -338,8 +338,8 @@ nav {
     font-size: 11px;
     font-weight: 600;
     color: var(--accent-soft-2);
-    background: rgba(4, 11, 8, 0.78);
-    border: 1px solid rgba(110, 231, 183, 0.28);
+    background: rgba(20, 7, 9, 0.8);
+    border: 1px solid rgba(252, 165, 165, 0.28);
 }
 
 /* Sections */
@@ -348,7 +348,7 @@ nav {
 }
 
 .dark-section {
-    background: #0b1410;
+    background: #17090b;
 }
 
 .section-title {
@@ -366,7 +366,7 @@ nav {
 }
 
 .skill {
-    background: #111b16;
+    background: #1d1013;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -387,7 +387,7 @@ nav {
 }
 
 .project-card {
-    background: #111b16;
+    background: #1d1013;
     padding: 25px;
     border-radius: 8px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -412,7 +412,7 @@ nav {
 }
 
 .certificate-card {
-    background: #111b16;
+    background: #1d1013;
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -436,11 +436,11 @@ nav {
 }
 
 .certificate-image-card {
-    background: #111b16;
+    background: #1d1013;
     border-radius: 8px;
     padding: 16px;
-    color: #F3F4F6;
-    border: 1px solid #374151;
+    color: #fff7f7;
+    border: 1px solid #5d2c33;
     transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -461,7 +461,7 @@ nav {
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
-    border: 2px solid #374151;
+    border: 2px solid #5d2c33;
     margin-bottom: 14px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     cursor: zoom-in;
@@ -537,8 +537,8 @@ nav {
 footer {
     text-align: center;
     padding: 20px;
-    background: #07100c;
-    color: #8fa89c;
+    background: #120608;
+    color: #c28d93;
 }
 
 .image-modal {
@@ -547,7 +547,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(2, 6, 23, 0.9);
+    background: rgba(12, 3, 5, 0.92);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.25s ease;
@@ -576,8 +576,8 @@ footer {
     height: 42px;
     border: 0;
     border-radius: 50%;
-    background: #102018;
-    color: #F3F4F6;
+    background: #2c1115;
+    color: #fff7f7;
     font-size: 28px;
     line-height: 1;
     cursor: pointer;
